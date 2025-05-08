@@ -1,135 +1,160 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<!-- Name:  ICE:  -->
 <html lang="en">
-    <!-- The head contains non-displayed information - document setup info -->
-    <head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jason Chi – Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SIDEBAR NAV -->
+  <aside class="sidebar">
+    <img src="your-photo.jpg" alt="Jason Chi" class="profile-pic" />
+    <h2>Jason Chi</h2>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#hometown">Hometown</a>
+      <a href="#education">Education</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="social">
+      <a href="https://linkedin.com/in/jason-chi-83838226b" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Jason-Chi52" target="_blank">GitHub</a>
+    </div>
+  </aside>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- The title is the only displayable part - change it -->
-        <title>ISTE 140 Homepage</title>
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
 
-    </head>
-    <!-- The body contains displayable content. -->
-    <body>
-            <header>
-                <h1>My Homepage - Jason Chi</h1>
-            </header>
-        <main>
-            <!-- This is the about me section -->
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I'm born in Rochester, lived in China for 10 years and came back, then moved to Louisiana for a bit and came back again.<br>
-                My favorite thing about home is that I have everything I needed in my room.<br>
-                I just like to hang out with friends when I'm free.<br>
-                My impressions for RIT is pretty good besides the bathrooms on my dorm floor.<br> 
-                I would like the superpower of teleportation, and super speed.
-            </p>
-        </section>
+    <!-- HERO / HOME -->
+    <section id="home" class="hero">
+      <h1>Hello, I’m <span>Jason Chi</span></h1>
+      <p>Aspiring Software Engineer &amp; RIT Student</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
 
-        <section>
-            <h2>My Hometown</h2>
-            <p>
-                I am born in Rochester, NY, but I also lived in China for 10 years when I was little. <br>
-                So I guess Rochester and China are both my hometwon.<br>
-                In China the food is really good, the cost of living is much cheaper.<br>
-                I really like the fact that in China everything is much more convenient compare to some other places.<br>
-                What is not good about China is that I cannot use google, I have to use the Chinese version of google.
-            </p>
-        </section>
-
-        <section>
-            <h2> My Major and Classes: </h2>
-            <p>
-                My major is Computer Exploration. <br>
-                I'm looking into the fields of computer science or software enginneering. <br>
-                I was a game design and development major, and I did not think that was what I wanted.<br>
-                So my counselor gave me the option to computing exploration.
-            </p>
-        </section>
-
-        <section>
-            <h2>My classes for the major are: <br></h2>
-            <dl>
-                <dt><strong>Computing Exploration Seminar (CINT-101)</strong>
-                    - a one credit-hour course for the Computing Exploration students, including an overview of 
-                    the computing disciplines and an introduction to seven computing and informatics academic programs.
-                </dt>
-
-                <dt><strong>SoftwareDev&ProbSolv_I(GCIS-123)</strong>
-                    - a first course introducing students to the fundamentals of computational problem solving. 
-                </dt>
-
-                <dt><strong>Web & Mobile I(ISTE-140)</strong>
-                    - this course provides students with an introduction to internet and web technologies, and to development on Macintosh/UNIX computer platforms.
-                </dt>
-
-                <dt><strong>Calculus I(MATH-181)</strong>
-                    - this is the first in a two-course sequence intended for students majoring in mathematics, science, or engineering. 
-
-                </dt>
-
-                <dt><strong>Calculus I Recitation(MATH-181R)</strong>
-                    - this course is a weekly recitation devoted to skill development and just-in-time review of calculus material as needed.
-                </dt>
-
-                <dt><strong>Introduction to Psychology(PSYC-101)</strong>
-                    - introduction to the field of psychology. Provides a survey of basic concepts, theories, and research methods.
-                </dt>
-
-                <dt><strong>RIT 365: RIT Connections(YOPS-10)</strong>
-                    - RIT 365 students participate in experiential learning opportunities designed to launch them into their career at RIT.
-                </dt>
-            </dl>
-        </section>
-
-        <section>
-            <h2> My Hobbies and Interests </h2>
-
-            <p>My top interest right now is hanging out with my friends.</p>
-            <p> These are some of my other interests:</p>
-
-            <ul>
-                <li>Badminton</li>
-                <li>Hanging out with friends</li>
-                <li>Gym</li>
-                <li>Video Gaming</li>
-            </ul>
-
-            <p> I used to just play video games when I was living in Louisinana because I did not have the chances to do anything else besides that.<br>
-                After I got into RIT, I have found some other things that interests me.<br>
-                I got back to being with my old friends and meet with some new people to get together and do something we are interested.
-
-            </p>
-        </section>
-
-        <section>
-        <h2>Images</h2>
-            <img src = "HelloLight_Mac.png" alt = "Hello" width = "280" height = "120">
-
-            <img src = "Peppa-Audio.jpg" alt = "Peppa pig" width = "280" height = "150">
-
-            <img src = "download.jpg" alt = "GGbond" width = "200" height = "150">
-
-        </section>
-
-        <footer>
-                
-                <!--contact info-->
-            <hr>
-            <div>
-                <a href = "https://www.linkedin.com/in/jason-chi-83838226b/">LinkedIn</a>
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <a href="https://youtu.be/your-video-1" target="_blank">
+            <img src="project1-thumb.png" alt="Project One" />
+            <div class="card-content">
+              <h3>Project One</h3>
+              <p>Brief description of project one. Built with XYZ.</p>
             </div>
-            Email: <a href = "malito:jc5161@rit.edu">jc5161@rit.edu</a><br>
-            Phone number: <em>585-512-4847</em><br>
-            <!--image credits-->
-                <p>Image Credits to:<br>
-                <a href = "https://basicappleguy.com/basicappleblog/hello-20" target="_blank">https://basicappleguy.com/basicappleblog/hello-20</a><br>
-                <a href = "https://kidscreen.com/2020/11/23/hasbro-makes-some-noise-with-peppa-pig/" target="_blank">https://kidscreen.com/2020/11/23/hasbro-makes-some-noise-with-peppa-pig/</a><br>
-                <a href = "https://weibo.com/2465472573/MpYKayfwt?sudaref=www.google.com" target="_blank">https://weibo.com/2465472573/MpYKayfwt?sudaref=www.google.com</a>
-            </p>
-            </footer>
-        </main>
-    </body>
+          </a>
+        </div>
+        <div class="project-card">
+          <a href="https://youtu.be/your-video-2" target="_blank">
+            <img src="project2-thumb.png" alt="Project Two" />
+            <div class="card-content">
+              <h3>Project Two</h3>
+              <p>Brief description of project two. Built with ABC.</p>
+            </div>
+          </a>
+        </div>
+        <!-- Add more .project-card as needed -->
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m born in Rochester, lived in China for 10 years and came back,
+        then moved to Louisiana for a bit and came back again. My favorite
+        thing about home is that I have everything I needed in my room. I
+        just like to hang out with friends when I’m free. My impressions of
+        RIT are pretty good besides the bathrooms on my dorm floor. I would
+        love the superpowers of teleportation and super speed.
+      </p>
+    </section>
+
+    <!-- HOMETOWN -->
+    <section id="hometown">
+      <h2>Hometown</h2>
+      <p>
+        I was born in Rochester, NY, but I also lived in China for 10 years
+        when I was little. I consider both Rochester and China my hometowns.
+        In China, the food is amazing and the cost of living is much
+        cheaper. I really like how convenient everything is there—though
+        not being able to use Google (having to rely on local search
+        engines) can be frustrating.
+      </p>
+    </section>
+
+    <!-- EDUCATION & COURSES -->
+    <section id="education">
+      <h2>Major &amp; Courses</h2>
+      <p>
+        My major is Computing Exploration. I'm exploring fields like
+        Computer Science and Software Engineering. I initially pursued
+        Game Design & Development but realized it wasn’t for me, so I
+        switched to Computing Exploration.
+      </p>
+      <dl>
+        <dt><strong>Computing Exploration Seminar (CINT-101)</strong></dt>
+        <dd>A one-credit course introducing seven computing disciplines.</dd>
+
+        <dt><strong>Software Dev &amp; Problem Solving I (GCIS-123)</strong></dt>
+        <dd>Fundamentals of computational problem-solving.</dd>
+
+        <dt><strong>Web &amp; Mobile I (ISTE-140)</strong></dt>
+        <dd>Intro to internet/web tech and Macintosh/UNIX development.</dd>
+
+
+
+      </dl>
+    </section>
+
+    <!-- HOBBIES & INTERESTS -->
+    <section id="hobbies">
+      <h2>Hobbies &amp; Interests</h2>
+      <p>My top interest right now is hanging out with my friends.</p>
+      <ul>
+        <li>Badminton</li>
+        <li>Fitness &amp; Gym</li>
+        <li>Video Gaming</li>
+        <li>Hanging out with friends</li>
+      </ul>
+      <p>
+        I used to spend almost all my time gaming when I was in Louisiana
+        because there weren’t many other options. At RIT, I’ve reconnected
+        with old friends, met new people, and discovered hobbies that help
+        me grow.
+      </p>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="projects-grid">
+        <img src="HelloLight_Mac.png" alt="HelloLight Demo" />
+        <img src="Peppa-Audio.jpg" alt="Peppa Pig Audio" />
+        <img src="download.jpg" alt="GGbond Screenshot" />
+      </div>
+    </section>
+
+    <!-- CONTACT & CREDITS -->
+    <section id="contact">
+      <h2>Contact &amp; </h2>
+      <p>GitHub: <a href="https://github.com/Jason-Chi52">https://github.com/Jason-Chi52"/</a></p>
+
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jason-chi/">linkedin.com/in/jason-chi/</a></p>
+      <p>Email: <a href="mailto:jc5161@rit.edu">jc5161@rit.edu</a></p>
+      <p>Phone: <a href="tel:+15855124847">585-512-4847</a></p>
+
+
+    </section>
+
+  </main>
+</body>
 </html>
